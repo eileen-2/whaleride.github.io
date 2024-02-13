@@ -50,7 +50,7 @@
   - Github Pages
 
 ### 2.2 배포 URL
-- https://www.studyin.co.kr/
+- https://whaleride.github.io/index.html
 - 테스트용 계정
   ```
   id : test@test.test
