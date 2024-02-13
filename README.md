@@ -50,7 +50,7 @@
   - Github Pages
 
 ### 2.2 배포 URL
-- https://whaleride.github.io/index.html
+- https://whaleride.github.io/index.html](https://eileen-2.github.io/whaleride.github.io/
 - 테스트용 계정
   ```
   id : test@test.test
