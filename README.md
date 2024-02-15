@@ -103,29 +103,17 @@ gantt
 
 
 ### 6.2 화면 설계
-- 화면은 gif파일로 업로드해주세요.
  
 <table>
     <tbody>
         <tr>
             <td>메인</td>
+            <td>결과</td>
         </tr>
         <tr>
-            <td>
-		<img src="img\main1_web.gif" width="100%">
-            </td>
-            <td>
-                <img src="img\result_web.gif" width="100%">
-            </td>
+            <td><img src="img\main1_web.gif" width="100%"></td>
+            <td><img src="img\result_web.gif" width="100%"></td>
         </tr>
-        <tr>
-            <td>회원가입</td>
-            <td>정보수정</td>
-        </tr>
-        <tr>
-            <td>
-                <img src="ui3.png" width="100%">
-            </td>
         </tr>
     </tbody>
 </table>
