@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Whale Ride</title>
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=wtw87t3vqm"></script>
+
+</head>
+
+<body>
+    <header class="cont-header">
+        <h1 class="tit-header"><img height="300px" src="img/logo-no-background.png" alt="WhaleRide"></h1>
+        <blockquote class="box-quote">
+            <strong>WhaleRide</strong>는<br>제주도의 청량함과 상쾌함을 즐기는<br>라이더와 함께합니다.
+        </blockquote>
+    </header>
+
+<div class="cont-main"><br>
+    <form id="form" onsubmit="submitForm(event)">
+        <ul>
+            <li>어디로 여행하시나요? <input type="text" id="question1" placeholder="제주특별자치도"></li><br>
+            <li>여행 일정을 입력해주세요. <input type="text" id="question2" placeholder="3"></li><br>
+            <li>여행 일정에 꼭 들어갔으면 하는 여행지를 입력해주세요.<input type="text" id="question3" placeholder="성산일출봉, 용머리해변"></li><br>
+            <li>차를 렌트하셨나요? <input type="radio" name="choice" id="choice1">예
+                <input type="radio" name="choice" id="choice2">아니오</li>
+        </ul><br>
+        <input type="submit" value="제출">
+    </form>
+    <br>
+
+    <div id="answer"></div>
+    <div id="schedule"></div>
+    
+        <h1>여행 계획표</h1>
+        <table id="schedule-table">
+            <thead>
+                <tr>
+                    <th>일자</th>
+                    <th>여행지</th>
+                    <th>설명</th>
+                </tr>
+            </thead>
+            <tbody id="plan">
+                <p id="userLocation"></p>
+                <p id="days"></p>
+                <p id="places"></p>
+                <p id="rent"></p>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="map-container">
+    <div id="map" style="width:100%;height:400px;"></div>
+    </div>
+
+    <script src="result.js"></script>
+
+    <script>
+        // 페이지가 로드될 때 실행되는 함수입니다.
+        window.onload = function() {
+            // localStorage에서 사용자의 입력값을 가져옵니다.
+            let userLocation = localStorage.getItem('userLocation');
+            let days = localStorage.getItem('days');
+            let places = localStorage.getItem('places');
+            let rent = localStorage.getItem('rent');
+            
+            // 사용자의 입력값을 각 input 필드의 value 속성에 설정합니다.
+            document.getElementById('question1').value = userLocation;
+            document.getElementById('question2').value = days;
+            document.getElementById('question3').value = places;
+            if (rent === 'Yes') {
+                document.getElementById('choice1').checked = true;
+            } else {
+                document.getElementById('choice2').checked = true;
+            }
+            createMarker(); // 지도에 마커를 생성합니다.
+        }
+        </script>
+</div>
+
+<footer>
+    <small>Copyright ©WhaleRide 2024. All rights reserved.</small>
+</footer>
+</body>
+</html>
