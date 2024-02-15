@@ -18,7 +18,7 @@
 		<th>이은희</th>
 	</tr>
  	<tr>
-		<td><img src="img\my.jpg" width="100%"></td>
+		<td><img src="img\my.jpg" width="60%"></td>
 	</tr>
 </table>
 
@@ -35,9 +35,9 @@
 ### 2.3 URL 구조(모놀리식)
 - main
 
-| 서비스이름  | URL                            | 기능설명   | HTML File Name | 비고|
-| 메인       | '/'			      |홈페이지    | main.html      |     |
-| 결과       | 'result'		              | 결과페이지 | result.html    |     |   
+| 서비스이름  | URL                              | 기능설명   | HTML File Name | 비고|
+| 메인       | '/'                              |홈페이지    | main.html      |     |
+| 결과       | 'result                          | 결과페이지 | result.html    |     |   
 
 
 ## 3. 요구사항 명세와 기능 명세
@@ -111,8 +111,8 @@ gantt
             <td>결과</td>
         </tr>
         <tr>
-            <td><img src="img\main1_web.gif" width="100%"></td>
-            <td><img src="img\result_web.gif" width="100%"></td>
+            <td><img src="img\main1_web.gif.png" width="100%"></td>
+            <td><img src="img\result_web.gif.png" width="100%"></td>
         </tr>
         </tr>
     </tbody>
