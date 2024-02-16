@@ -43,28 +43,13 @@
 ## 3. 요구사항 명세와 기능 명세
 
 <img src="img\map.png" width="100%">
-  
-```mermaid
-    sequenceDiagram
-    participant 사용자 as User
-    participant 웹 as Web
-    participant 서버 as Server
-    사용자->>+웹: 여행 정보 입력 (지정 여행지, 날짜 등)
-    웹->>+서버: 사용자의 여행 정보 전달
-    alt 정보가 모두 올바를 경우
-    서버->>+웹: 맞춤형 여행 일정 및 경로 추천
-    웹->>+사용자: 추천된 여행 일정 및 경로 표시
-    else 정보가 부족하거나 올바르지 않을 경우
-    서버->>+웹: 에러 메시지
-    웹->>+사용자: 에러 메시지 표시
-    end
-```
+ 
 
 ## 4. 프로젝트 구조와 개발 일정
 ### 4.1 프로젝트 구조
 - 프로젝트구조
 📦WhaleRide<br> 
- ┣ 📂main<br>  
+ ┣ 📂main
  ┃ ┣ 📂style<br> 
  ┃ ┣ 📂img<br>  
  ┗ 📜README.md
