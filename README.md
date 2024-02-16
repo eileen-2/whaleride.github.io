@@ -31,7 +31,7 @@
   - Github Pages
 
 ### 2.2 배포 URL
-- https://eileen-2.github.io/whaleride.github.io/main1
+- https://eileen-2.github.io/whaleride.github.io/
 
 ### 2.3 URL 구조(모놀리식)
 - main<br>
