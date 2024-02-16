@@ -28,7 +28,7 @@ header {
 }
 
 .search-container button {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 input[type="radio"] {
@@ -40,6 +40,8 @@ table {
     border-collapse: collapse;
     width: 100%;
     font-size: 14px; 
+    margin: 10%;
+    margin-bottom: 50%;
 }
 
 table, th, td {

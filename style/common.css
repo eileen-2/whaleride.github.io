@@ -21,6 +21,9 @@ a {
 
 button {
     cursor: pointer;
+    height: 30px;
+    width: 100px;
+    vertical-align: middle;
 }
 
 .btn-common {
