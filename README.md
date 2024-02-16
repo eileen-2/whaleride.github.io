@@ -75,7 +75,6 @@ gantt
         결과    :2024-02-12, 2d
 ```
 
-<img src="img\wbs.jpeg" width="80%">
 
 ## 5. 역할 분담
 
