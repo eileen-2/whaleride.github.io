@@ -26,6 +26,7 @@
 ### 2.1 개발 환경
 - HTML
 - CSS Framework
+- JavaScript
 - 서비스 배포 환경
   - Github Pages
 
