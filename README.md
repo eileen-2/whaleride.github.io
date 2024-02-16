@@ -49,7 +49,7 @@
 ## 4. 프로젝트 구조와 개발 일정
 ### 4.1 프로젝트 구조
 - 프로젝트구조
-📦WhaleRide <br> 
+📦WhaleRide  
  ┣ 📂main <br>
  ┃ ┣ 📂style <br> 
  ┃ ┣ 📂img <br>  
