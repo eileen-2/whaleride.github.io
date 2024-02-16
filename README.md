@@ -34,7 +34,7 @@
 - https://eileen-2.github.io/whaleride.github.io/main1
 
 ### 2.3 URL 구조(모놀리식)
-- main
+- main<br>
 
 | 서비스이름  | URL                              | 기능설명   | HTML File Name | 비고|
 | 메인       | '/'                              |홈페이지    | main.html      |     |
